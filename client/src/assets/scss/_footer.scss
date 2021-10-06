@@ -1,0 +1,24 @@
+.footer{
+    background-color: $darkBlueWave;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    .account-information{
+        ul{
+            list-style-type: none;
+        }
+    }
+    .footerLogo{
+        img{
+            width: 30px;
+            position: absolute;
+            bottom: 10px;
+        }
+    }
+    .website-information{
+        ul{
+            list-style-type: none;
+        }
+    }
+}
