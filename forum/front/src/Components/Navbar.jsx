@@ -13,11 +13,13 @@ export const Header = () => {
                     </article>
                 </section>
                 <div className="purple-nav">
-                    <img className="logoNav" src="/images/LogoWawe.png" />
+                    <Link to="/">
+                        <img className="logoNav" src="/images/LogoWawe.png" />
+                    </Link>
                     <article className="link-nav">
                         <Link to="/">Evenement</Link>
                         <Link to="/">Gallerie</Link>
-                        <Link to="/">Bibliothéque</Link>
+                        <Link to="/bibliotheque">Bibliothéque</Link>
                         <Link to="/forum">Forum</Link>
                     </article>
                 </div>

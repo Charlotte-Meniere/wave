@@ -15,6 +15,7 @@ import Connexion from './Components/Login/Connexion';
 import {Footer,Header} from './Components/Navbar';
 import Home from './Routes/Home';
 import './assets/scss/style.scss';
+import Bibliotheque from './Routes/Bibliotheque';
 
 ReactDOM.render(
   <Router>
@@ -29,6 +30,9 @@ ReactDOM.render(
         </Route>
         <Route path="/connexion">
           <Connexion />
+        </Route>
+        <Route path="/bibliotheque">
+          <Bibliotheque />
         </Route>
         <Route path="/">
           <Home />
