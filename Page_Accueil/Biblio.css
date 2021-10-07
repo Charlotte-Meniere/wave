@@ -54,8 +54,11 @@ body {
   grid-template-rows: 10% 1fr 10%;
   align-items: center;
   justify-content: space-around;
+  padding: 35px 0 35px 0;
 }
-
+.center{
+  text-align: center;
+}
 .text_mid{
   grid-column: 2;
   grid-row: 1;
