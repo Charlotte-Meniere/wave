@@ -1,4 +1,7 @@
 import React from 'react'
+import FileUpload from "../components/FileUpload";
+import FileDownload from "../components/FileDownload";
+
 const bibliotheque = () => {
     function openPage(){
         var a = document.getElementById('search').value;
@@ -12,6 +15,11 @@ const bibliotheque = () => {
     }
     return (
         <div>
+            <div className="title">Bibliothéque</div>
+            <div className="upload">
+            <FileUpload/>
+            <FileDownload/>
+            </div>
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"/>
             <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
             <main>

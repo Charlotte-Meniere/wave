@@ -9,7 +9,6 @@ import axios from 'axios';
 import home from './pages/home';
 import bibliotheque from './pages/bibliotheque';
 import './assets/scss/style.scss';
-/* import { UserContext } from './UserContext'; */
 
 
 const App = () => {
@@ -24,8 +23,6 @@ const App = () => {
         </Switch>
         <Footer/>
       </BrowserRouter>
-        <FileUpload/>
-        <FileDownload/>
     </div>
   )
 }
