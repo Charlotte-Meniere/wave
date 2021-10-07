@@ -13,13 +13,10 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
       <Navbar/>
-      {/* mettre la Navbar ici */}
-        <p> C'est l'aap.js</p>
         <Switch>
-          {/* Mettre les routes vesr les pages ici 
-          ex:  <Route path='/Home' component={Home}/> */}
+          <Route path='/' exact component={home} />
+          {/* Mettre les routes vesr les pages ici  */}
         </Switch>
-        {/* mettre le footer ici */}
         <Footer/>
       </BrowserRouter>
         <FileUpload/>

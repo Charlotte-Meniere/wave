@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 .banner-blue-nav{
     background-color: $darkBlueWave;
     height: 30vh;
@@ -39,12 +42,13 @@
     }
     }
     .purple-nav{
+        margin: 0;
         background-color:$darkPurpleWave;
         height: 5vh;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100vw;
+        width: 95vw;
         position: relative;
         .logoNav{
             height: 20vh;
