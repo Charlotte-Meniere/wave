@@ -39,7 +39,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/html.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/html.jpg">
                     <a href="html_cours.php"><span class="card-title" style="background-color: rgba(0,0,0,.5)">HTML</span></a>
                 </div>
             </div>
@@ -47,7 +47,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/css.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/css.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">CSS</span></a>
 
                 </div>
@@ -56,7 +56,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/JavaScript_logo_2.svg.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/JavaScript_logo_2.svg.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">JS</span></a>
                 </div>
             </div>
@@ -64,7 +64,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/nodo_js.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/nodo_js.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">NODO JS</span></a>
                 </div>
             </div>
@@ -72,7 +72,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/logo-react-js.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/logo-react-js.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">React</span></a>
                 </div>
             </div>
@@ -80,7 +80,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/Logo-Vuejs.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/Logo-Vuejs.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Vue.js</span></a>
                 </div>
             </div>
@@ -88,7 +88,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/php.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/php.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">PHP</span></a>
                 </div>
             </div>
@@ -96,7 +96,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/sass.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/sass.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">SASS</span></a>
                 </div>
             </div>
@@ -104,7 +104,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/mongodb-logo.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/mongodb-logo.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Mongo DB</span></a>
                 </div>
             </div>
@@ -116,6 +116,6 @@
 </footer>
 
 <script src="./js/nav_slide.js"></script>
-<script src="./js/search_bar.js"></script>
+<script src="js/search_bar.js"></script>
 </body>
 </html>
