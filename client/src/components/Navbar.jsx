@@ -9,7 +9,7 @@ const Navbar = () => {
                         <img className="whiteScriptLogo" src="../img/WhiteScriptLogo.png"/>
                         <article className="connexion">
                             <Link to="/" className="inscriptionBtn">Je m'inscris</Link>
-                            <Link to="/"className="connexionBtn">Je me connecte</Link>
+                            <Link to="/Login"className="connexionBtn">Je me connecte</Link>
                         </article>
                     </section>
                         <div className="purple-nav">

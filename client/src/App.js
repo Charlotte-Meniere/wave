@@ -5,6 +5,7 @@ import {BrowserRouter, Switch,Route} from 'react-router-dom';
 import { useEffect, useMemo, useState } from 'react';
 import home from './pages/home';
 import Event from './pages/Event';
+import Login from './pages/Login';
 import './assets/scss/style.scss';
 
 
@@ -17,6 +18,8 @@ const App = () => {
         <Switch>
           <Route path='/' exact component={home} />
           <Route path='/Event' exact component={Event} />
+          <Route path='/Login' exact component={Login} />
+
 
           {/* Mettre les routes vesr les pages ici  */}
         </Switch>
