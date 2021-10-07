@@ -26,11 +26,13 @@
 }
 .homePurpleBackground{
     background-color: $lightPurpleWave;
-    display: flex;
+    text-align: center;
     justify-content: center;
     div{
-        margin:30px;
-
+        .eventTitle{
+            font-family: 'titre';
+            font-size: 40px;
+        }
     }
 }
 .homeBlueBackground{
