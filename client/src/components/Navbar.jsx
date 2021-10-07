@@ -15,7 +15,7 @@ const Navbar = () => {
                         <div className="purple-nav">
                             <img className="logoNav" src="../img/LogoWawe.png"/>
                             <article className="link-nav">
-                                <Link to="/">Evenement</Link>
+                                <Link to="/Event">Evenement</Link>
                                 <Link to="/">Gallerie</Link>
                                 <Link to="/">Bibliothéque</Link>
                             </article>
