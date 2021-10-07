@@ -1,0 +1,115 @@
+.Allsectionconnexion{
+  background: linear-gradient(180deg, #D2E7F7 0%, #FFFFFF 51.04%);
+}
+.titreh1connexion{
+    margin: 30px 0 50px 0;
+    text-align: center;
+    font-family: 'Saira', sans-serif;
+    font-style: normal;
+font-weight: 600;
+}
+.input-field{
+    width: 120px;
+}
+
+        .form-style-2{
+            max-width: 500px;
+            padding: 20px 12px 10px 20px;
+            font: 13px Arial, Helvetica, sans-serif;
+        }
+       
+        .form-style-2 label{
+            display: block;
+            margin: 0px 0px 15px 0px;
+        }
+        .form-style-2 label > span{
+            width: 100px;
+            font-weight: bold;
+            float: left;
+            padding-top: 8px;
+            padding-right: 5px;
+        }
+        
+        
+        .form-style-2 input.input-field, .form-style-2 .select-field{
+            width: 68%;	
+        }
+        .form-style-2 input.input-field{
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+            border: 1px solid #C2C2C2;
+            box-shadow: 1px 1px 4px #EBEBEB;
+            -moz-box-shadow: 1px 1px 4px #EBEBEB;
+            -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+            border-radius: 5px;
+            -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+            padding: 7px;
+            outline: none;
+            width: auto;
+            background: #FFFFFF;
+box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.61);
+border-radius: 5px;
+        }
+        .form-style-2 .input-field:focus, 
+        .filed,
+        .form-style-2 .select-field:focus{
+            border: 1px solid rgb(66, 5, 231);
+        }
+       
+       .form-style-2{
+           margin-top: 5%;
+       }
+       .Allsectionconnexion{
+           display: flex;
+           flex-direction: column;
+           justify-content: center;
+       }
+       .Allsectionconnexion1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center; 
+       }
+       .btn11conxion{
+           display: flex;
+           flex-direction: row;
+           justify-content: flex-end;
+       }
+       #button1connexion{
+        background: #DEA9FF;
+        box-shadow: inset 0px 5px 8px rgba(0, 0, 0, 0.61);
+        border-radius: 30px;
+        border: none;
+        font-family: 'Saira', sans-serif;
+        font-weight: 600px;
+        width: 91px;
+        height: 21px;
+        margin-right: 20px;
+
+       }
+
+
+h1{
+
+font-size: 36px;
+
+color: #000000;
+}
+.titreh1connexion{
+           text-align: end;
+       }
+.linkconexion{margin-top: 20px;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+.par1connexion{
+    font-family: 'Saira', sans-serif;
+    font-style: normal;
+font-weight: 600px;
+
+color: #000000;
+font-size: 15px;
+
+}
