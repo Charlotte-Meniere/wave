@@ -10,7 +10,6 @@ import home from './pages/home';
 import bibliotheque from './pages/bibliotheque';
 import './assets/scss/style.scss';
 
-
 const App = () => {
   return (
     <div className="App">
