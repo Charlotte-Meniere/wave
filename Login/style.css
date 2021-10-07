@@ -1,0 +1,58 @@
+.bcontent {
+    margin-top: 10px;
+}
+.card-img{
+  height: 250px;
+  object-fit: cover;
+}
+.card{
+
+background: linear-gradient(270.62deg, #B78BD2 18.32%, #08061C 80.75%);
+box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+opacity: 0.8;
+}
+p{
+color: white;
+}
+h5{
+color: white;
+
+}
+.cardtitre{
+text-align: center;
+font-family: 'Titillium Web', sans-serif;
+font-weight:700px;
+font-size: 50px;
+}
+.search1{
+margin-left: 20px;
+margin-right: 20px;
+
+width: 10%;
+}
+.cardtext{
+font-family: 'Titillium Web', sans-serif;
+font-weight:400px;
+}
+.containersearch{
+width: 700px;
+}
+.Allsection{
+display: flex;
+flex-direction: column;
+}
+.card2{
+background: linear-gradient(270.62deg, #FA8056 18.32%, #A3316C 80.75%);
+box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+opacity: 0.8;
+
+}
+.card3{
+background: linear-gradient(270.62deg, #B78BD2 18.32%, #08061C 80.75%);
+box-shadow: 0px 10px 8px rgba(0, 0, 0, 0.25);
+opacity: 0,8;
+}
+.Allsection{
+background: linear-gradient(180deg, #D2E7F7 0%, #FFFFFF 51.04%);
+}
+
