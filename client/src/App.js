@@ -5,6 +5,8 @@ import {BrowserRouter, Switch,Route} from 'react-router-dom';
 import { useEffect, useMemo, useState } from 'react';
 import FileUpload from "./components/FileUpload";
 import FileDownload from "./components/FileDownload";
+import axios from 'axios';
+import home from './pages/home';
 /* import { UserContext } from './UserContext'; */
 
 

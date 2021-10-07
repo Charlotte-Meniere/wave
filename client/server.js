@@ -4,7 +4,7 @@ var multer = require('multer');
 var cors = require('cors');
 var fs = require('fs');
 
-app.use(cors());
+app.use(cors()); 
 
 var linkFile = 'public/uploadFile';
 
