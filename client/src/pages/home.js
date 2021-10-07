@@ -20,7 +20,7 @@ const Home = () => {
             <div>
                 <p>Les derniers cours</p>
             </div>
-
+                
         </section>
         <section className=" homeBlueBackground">
             <div>
