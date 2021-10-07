@@ -40,7 +40,7 @@
             <h2>DOCUMENT</h2>
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/html.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/html.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Login</span></a>
                 </div>
             </div>
@@ -49,7 +49,7 @@
             <h2>IMAGE</h2>
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/css.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/css.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Login</span></a>
 
                 </div>
@@ -59,7 +59,7 @@
             <h2>VIDEO</h2>
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/JavaScript_logo_2.svg.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/JavaScript_logo_2.svg.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Login</span></a>
                 </div>
             </div>
@@ -67,7 +67,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/nodo_js.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/nodo_js.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">ALGO</span></a>
                 </div>
             </div>
@@ -75,7 +75,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/logo-react-js.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/logo-react-js.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">ALGO</span></a>
                 </div>
             </div>
@@ -83,7 +83,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/Logo-Vuejs.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/Logo-Vuejs.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">ALGO</span></a>
                 </div>
             </div>
@@ -91,7 +91,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/php.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/php.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Programmation</span></a>
                 </div>
             </div>
@@ -99,7 +99,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/sass.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/sass.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Programmation</span></a>
                 </div>
             </div>
@@ -107,7 +107,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/dev/mongodb-logo.jpg">
+                    <img src="../client/public/img/bibliotheque/dev/mongodb-logo.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Programmation</span></a>
                 </div>
             </div>
@@ -119,6 +119,6 @@
 </footer>
 
 <script src="./js/nav_slide.js"></script>
-<script src="./js/search_bar.js"></script>
+<script src="js/search_bar.js"></script>
 </body>
 </html>
