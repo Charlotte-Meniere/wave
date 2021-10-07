@@ -6,6 +6,7 @@ import { useEffect, useMemo, useState } from 'react';
 import home from './pages/home';
 import Event from './pages/Event';
 import Login from './pages/Login';
+import Signup from './pages/Signup';
 import './assets/scss/style.scss';
 
 
@@ -19,6 +20,8 @@ const App = () => {
           <Route path='/' exact component={home} />
           <Route path='/Event' exact component={Event} />
           <Route path='/Login' exact component={Login} />
+          <Route path='/Signup' exact component={Signup} />
+
 
 
           {/* Mettre les routes vesr les pages ici  */}

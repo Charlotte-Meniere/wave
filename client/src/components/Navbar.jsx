@@ -8,7 +8,7 @@ const Navbar = () => {
                     <section className="topBlueNav">
                         <img className="whiteScriptLogo" src="../img/WhiteScriptLogo.png"/>
                         <article className="connexion">
-                            <Link to="/" className="inscriptionBtn">Je m'inscris</Link>
+                            <Link to="/Signup" className="inscriptionBtn">Je m'inscris</Link>
                             <Link to="/Login"className="connexionBtn">Je me connecte</Link>
                         </article>
                     </section>
