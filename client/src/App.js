@@ -12,7 +12,6 @@ const App = () => {
     <div className="App">
       <BrowserRouter>
       <Navbar/>
-        <p> C'est l'aap.js</p>
         <Switch>
           <Route path='/' exact component={home} />
           {/* Mettre les routes vesr les pages ici  */}

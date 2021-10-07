@@ -5,6 +5,7 @@ a{
 }
 *{
     font-family: "regular";
+    margin: 0
 }
 
 
@@ -13,3 +14,4 @@ a{
 @import "variables";
 @import "navbar";
 @import "footer";
+@import "home"
