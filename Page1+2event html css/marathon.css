@@ -1,0 +1,97 @@
+.Allsection1{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+#section1{
+    display:flex;
+    flex-direction:column;
+    background: linear-gradient(180deg, #D2E7F7 0%, #FFFFFF 51.04%);
+}
+.pcontain{
+    width:90%;
+    
+}
+.MAAP{
+width: 90%;
+height: 277px;
+
+}
+.mapcontainer{
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+.globalp{
+    display: flex;
+    flex-direction:row;
+    justify-content: center;
+    margin-top: 30px;
+}
+.Mtitre1{
+    text-align:center;
+font-family: 'Saira', sans-serif;
+font-style: normal;
+font-weight: 600;
+font-size: 36px;
+line-height: 57px;
+color: #000000;
+}
+
+.twoimages{
+    display:flex;
+    flex-direction:column;
+    margin-left: 15%;
+}
+.singleimage{
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.twooimages{
+}
+.imagef{
+    position: absolute;
+    width: 119px;
+    height: 58px; 
+    margin:10px 0 0 100px;
+}
+.imageff{
+    position: absolute;
+    width: 119px;
+    height: 58px; 
+    margin:25px 0 0 -35px;
+}
+.imaged{
+width: 206px;
+height: 205px;
+object-fit:cover;
+}
+.imageA{
+    width: 122px;
+    height: 181px;
+    object-fit:cover;
+}
+.imageb{
+width: 119px;
+height: 58px;
+}
+.Allsection{
+    width:80%;
+
+}
+.img{
+margin-left: 10px;
+}
+.Allsection{
+    display: flex;
+    font-display:row;
+
+}
+.imgc{
+    width: 302px;
+    height: 232px;
+    object-fit:cover;
+    }

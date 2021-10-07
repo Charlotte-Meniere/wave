@@ -7,6 +7,9 @@ import FileUpload from "./components/FileUpload";
 import FileDownload from "./components/FileDownload";
 import axios from 'axios';
 import home from './pages/home';
+import Event from './pages/Event';
+import Login from './pages/Login';
+import Signup from './pages/Signup';
 import bibliotheque from './pages/bibliotheque';
 import './assets/scss/style.scss';
 
@@ -16,8 +19,13 @@ const App = () => {
       <BrowserRouter>
       <Navbar/>
         <Switch>
-            <Route path='/' exact component={home} />
-            <Route path='/bibliotheque' exact component={bibliotheque} />
+          <Route path='/' exact component={home} />
+          <Route path='/Event' exact component={Event} />
+          <Route path='/Login' exact component={Login} />
+          <Route path='/Signup' exact component={Signup} />
+          <Route path='/' exact component={home} />
+          <Route path='/bibliotheque' exact component={bibliotheque} />
+
           {/* Mettre les routes vesr les pages ici  */}
         </Switch>
         <Footer/>
