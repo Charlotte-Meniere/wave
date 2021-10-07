@@ -1,4 +1,5 @@
 import { Link, Redirect } from 'react-router-dom'
+import bibliotheque from "../pages/bibliotheque";
 
 
 const Navbar = () => {
@@ -13,11 +14,13 @@ const Navbar = () => {
                         </article>
                     </section>
                         <div className="purple-nav">
+                        <Link to="/">
                             <img className="logoNav" src="../img/LogoWawe.png"/>
+                        </Link>
                             <article className="link-nav">
                                 <Link to="/Event">Evenement</Link>
                                 <Link to="/">Gallerie</Link>
-                                <Link to="/">Bibliothéque</Link>
+                                <Link to="/bibliotheque">Bibliothéque</Link>
                             </article>
                         </div>
             </div>

@@ -1,0 +1,95 @@
+.homeDarkBackground{
+    background-color: $darkBlueWave;
+    display: flex;
+    div{
+        margin: 30px;
+        color: white;
+        display: flex;
+        width: 50vw;
+        justify-content: center;
+        flex-direction: column;
+        .imageTop{
+            width: 40vw;
+            height: 50vh;
+        }
+        .wawe{
+            img{
+                position: absolute;
+            }
+        }
+        .catchphrase{
+            font-family: 'bold';
+            font-size: 25px;
+        }
+    }
+
+}
+.homePurpleBackground{
+    background-color: $lightPurpleWave;
+    text-align: center;
+    justify-content: center;
+    div{
+        .eventTitle{
+            font-family: 'titre';
+            font-size: 40px;
+        }
+    }
+}
+.homeBlueBackground{
+    background-color: $lightBlueWave;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    div{
+        margin:30px;
+        .eventTitle{
+            font-family: 'titre';
+            font-size: 40px;
+        }
+    }
+    .encart-blancs{
+        display: flex;
+        flex-direction:row;
+        .encart{
+            background-color: white;
+            width: 20vw;
+            box-shadow: grey 20px 12px 30px;
+            position: relative;
+            img{
+                width: 20vw;
+            }
+            .catchphrase{
+                font-family: 'bold';
+            }
+            p{
+                padding: 20px;
+            }
+            a{
+                color: black;
+                font-family: 'titre';
+                background-color: $lightPurpleWave;
+                border-radius: 20px;
+                padding: 10px;
+                position: absolute;
+                right: 10px;
+                bottom: -20px;
+            }
+            
+        }
+    }
+    .bottomEvent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        img{
+            width: 20vw;
+        }
+        a{
+            background-color: black;
+            border-radius: 30px;
+            padding:10px;
+        }
+    }
+}
