@@ -1,0 +1,92 @@
+.ChatPage{
+  display: flex;
+  flex-direction: row;
+  background-color: #D5E8F7;
+  height: calc( 100vh - 40px );
+}
+.Nav{
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  height: fit-content;
+}
+.Chat{
+  display: flex;
+  width: 80%;
+  
+}
+.Box{
+  flex: 7;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.Online{
+  flex: 3;
+}
+
+.ChatNav{
+  margin: 10px;
+}
+.ChatNav .outter{
+  display: flex;
+  flex-direction: column;
+}
+.ChatNav .outter a{
+  margin: 2px;
+  padding: 2px;
+  text-decoration: none;
+  color: #0090ff;
+  background-color: #F27E12;
+  border-color: #F27E12;
+  font-weight: 620;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+}
+.ChatNav .outter p{
+  margin: 2px;
+  padding: 2px;
+  font-weight: 620;
+}
+.ChatNav .innerContent{
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+}
+.ChatNav .inner{
+  font-weight: 620;
+  border-style: solid;
+  border-radius: 10px;
+  padding: 5px;
+  margin: 2px;
+  border-color: #F27E12;
+  background-color: #F27E12;
+}
+.ChatBox{
+  width: 70%;
+  padding-top: 20px;
+  overflow: auto;
+
+}
+.ChatMessage{
+    display: flex;
+    border-style: solid;
+    border-radius: 20px;
+    margin: 20px 0px;
+    padding: 10px;
+}
+.ChatMessage > div {
+  display: flex;
+}
+.ChatMessage > div > h3{
+  padding-right: 5px;
+}
+.ChatMessage > div > h4{
+  padding-right: 5px;
+  white-space: pre-line;
+  font-weight: 500;
+}
+.ChatMessage > h4 {
+  margin-left: auto;
+}

@@ -1,0 +1,14 @@
+div
+  h1 Hello
+  p Welcome to the api endpoint
+  if count
+    p there are #{count} results
+  else 
+    p no counts here
+  if cats
+    each val in cats
+      div
+        h2 Title: #{val.title}
+        h3 Description: #{val.description}
+  else
+    p No cats here
