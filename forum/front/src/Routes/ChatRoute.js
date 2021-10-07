@@ -1,8 +1,7 @@
 import React from 'react';
 import './ChatRoute.css';
-import ChatBox from './ChatBox';
-import ChatNav from './ChatNav';
-import ChatOnline from './ChatOnline';
+import ChatBox from '../Components/Chat/ChatBox';
+import ChatNav from '../Components/Chat/ChatNav';
 
 
 function ChatRoute() {

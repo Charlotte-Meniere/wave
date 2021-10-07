@@ -2,7 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './Routes/App';
-import ChatRoute from './Components/Chat/ChatRoute';
+import ChatRoute from './Routes/ChatRoute';
 import reportWebVitals from './reportWebVitals';
 import {
   BrowserRouter as Router,
@@ -10,6 +10,8 @@ import {
   Route,
   Link
 } from "react-router-dom";
+import Inscription from './Components/Login/Inscription';
+import Connexion from './Components/Login/Connexion';
 
 ReactDOM.render(
   <Router>
@@ -19,7 +21,7 @@ ReactDOM.render(
               <Link to="/">Home</Link>
             </div>
             <div className="navLink">
-              <Link to="/about">About</Link>
+              <Link to="/connexion">Connexion</Link>
             </div>
             <div className="navLink">
               <Link to="/chat">Chat</Link>
@@ -28,6 +30,12 @@ ReactDOM.render(
         <Switch>
           <Route path="/chat">
             <ChatRoute />
+          </Route>
+          <Route path="/inscription">
+            <Inscription />
+          </Route>
+          <Route path="/connexion">
+            <Connexion />
           </Route>
           <Route path="/">
             <App />

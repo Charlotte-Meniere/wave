@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Signup page</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="Inscription.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="Allsectionconnexion">
+    <div class="Allsectionconnexion1">
+      <div class="form-style-2">
+        <h1 class="titreH1connexion">Inscription</h1>
+        <form action="" method="post">
+          <label for="email"><span>Email </span><input type="text" class="input-field" name="email" value="" /></label>
+          <label for="password"><span>mot de passe </span><input type="password" class="input-field" name="password"
+              value="" /></label>
+          <label for="password-match"><span>Retapez le mot de passe </span><input type="password" class="input-field"
+              name="password-match" value="" /></label>
+          <div>
+            <label for="field2" id="uploadBtn"><span>Choisir une photo </span>
+              <input type="file" name="upfile" id="file" />
+            </label>
+            <div class="imagecontconnexion">
+              <div class="roundimageconnexion"><img src="images/avatar.jfif" id="photo" /></div>
+            </div>
+            <div class="btn1inscrip"><button id="button1inscrip">connexion</button></div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+
+</html>
