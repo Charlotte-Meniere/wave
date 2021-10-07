@@ -1,4 +1,5 @@
 import { Link, Redirect } from 'react-router-dom'
+import bibliotheque from "../pages/bibliotheque";
 
 
 const Navbar = () => {
@@ -17,7 +18,7 @@ const Navbar = () => {
                             <article className="link-nav">
                                 <Link to="/">Evenement</Link>
                                 <Link to="/">Gallerie</Link>
-                                <Link to="/">Bibliothéque</Link>
+                                <Link to="/bibliotheque">Bibliothéque</Link>
                             </article>
                         </div>
             </div>

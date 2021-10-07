@@ -39,7 +39,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/pexels-tirachard-kumtanom-733853_2.jpg">
+                    <img src="../client/public/img/bibliotheque/pexels-tirachard-kumtanom-733853_2.jpg">
                     <a href="cours_dev.php"><span class="card-title" style="background-color: rgba(0,0,0,.5)">Dev</span></a>
                 </div>
             </div>
@@ -47,7 +47,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/pexels-ivan-samkov-7213438.jpg">
+                    <img src="../client/public/img/bibliotheque/pexels-ivan-samkov-7213438.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Animation</span></a>
 
                 </div>
@@ -56,7 +56,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/pexels-kaique-rocha-598917_2.jpg">
+                    <img src="../client/public/img/bibliotheque/pexels-kaique-rocha-598917_2.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Photo</span></a>
                 </div>
             </div>
@@ -64,7 +64,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/pexels-pixabay-276452_2.jpg">
+                    <img src="../client/public/img/bibliotheque/pexels-pixabay-276452_2.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Espace</span></a>
                 </div>
             </div>
@@ -72,7 +72,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/pexels-thisisengineering-3862372_2.jpg">
+                    <img src="../client/public/img/bibliotheque/pexels-thisisengineering-3862372_2.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Template</span></a>
                 </div>
             </div>
@@ -80,7 +80,7 @@
         <div class="col s12 m6 l4">
             <div class="card">
                 <div class="card-image">
-                    <img src="assets/img/bibliotheque/pexels-tranmautritam-326502_2.jpg">
+                    <img src="../client/public/img/bibliotheque/pexels-tranmautritam-326502_2.jpg">
                     <a href=""><span class="card-title" style="background-color: rgba(0,0,0,.5)">Design</span></a>
                 </div>
             </div>
@@ -92,6 +92,6 @@
 </footer>
 
 <script src="./js/nav_slide.js"></script>
-<script src="./js/search_bar.js"></script>
+<script src="js/search_bar.js"></script>
 </body>
 </html>
