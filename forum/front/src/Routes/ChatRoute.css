@@ -2,13 +2,14 @@
   display: flex;
   flex-direction: row;
   background: linear-gradient(180deg, #D2E7F7 0%, #FFFFFF 51.04%);
-  height: calc( 100vh - 40px );
+  height: calc( 80vh - 100px );
 }
 .Nav{
   width: 20%;
   display: flex;
   justify-content: center;
   height: fit-content;
+  padding-top: 20px;
 }
 .Chat{
   display: flex;
@@ -16,7 +17,7 @@
   
 }
 .Box{
-  flex: 7;
+  flex: 10;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -36,9 +37,9 @@
   margin: 2px;
   padding: 2px;
   text-decoration: none;
-  color: #0090ff;
-  background-color: #F27E12;
-  border-color: #F27E12;
+  color: white;
+  background-color: #a3316c;
+  border-color: #a3316c;
   font-weight: 620;
   border-style: solid;
   border-radius: 10px;
@@ -48,6 +49,7 @@
   margin: 2px;
   padding: 2px;
   font-weight: 620;
+  color: #aeaeae;
 }
 .ChatNav .innerContent{
   display: flex;
@@ -60,15 +62,32 @@
   border-radius: 10px;
   padding: 5px;
   margin: 2px;
-  border-color: #F27E12;
-  background-color: #F27E12;
+  border-color: #a3316c;
+  background-color: #a3316c;
 }
 .ChatBox{
   width: 70%;
   padding-top: 20px;
   overflow: auto;
-
 }
+.Box form{
+  padding: 20px;
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+.Box form textarea{
+  border-left-style: solid;
+  border-radius: 20px 0px 0px 20px;
+  padding: 15px;
+  width: 70%;
+}
+.Box form button{
+  border-left-style: solid;
+  border-radius: 0px 20px 20px 0px;
+  padding: 15px;
+}
+
 .ChatMessage{
     display: flex;
     border-style: solid;

@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+}
+.banner-blue-nav{
+    background-color: $darkBlueWave;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .whiteScriptLogo{
+        width: 20vw;
+        margin-left: 20vw;
+    }
+    .topBlueNav{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+        .connexion{
+            display: flex;
+            margin-bottom: 20px;
+            height: 20px;
+            width: 20%;
+            justify-content: space-around;
+            .inscriptionBtn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: black;
+                background-color: $lightBlueWave;
+                padding: 20px;
+                border-radius: 30px;
+            }
+            .connexionBtn{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                color: black;
+                background-color: $lightPurpleWave;
+                padding: 20px;
+                border-radius: 30px;
+            }
+    }
+    }
+    .purple-nav{
+        margin: 0;
+        background-color:$darkPurpleWave;
+        height: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95vw;
+        position: relative;
+        .logoNav{
+            height: 20vh;
+            bottom: 20px;
+        }
+        .link-nav{
+            margin: 20vh;
+            color: white;
+            width: 50vw;
+            display: flex;
+            justify-content: space-around;
+            a:hover{
+                color: white;
+            }
+        }
+    }
+}
+.link-nav{
+    margin: 20vh;
+    color: white;
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+    &:hover{
+        color: white;
+    }
+}

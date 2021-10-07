@@ -12,35 +12,29 @@ import {
 } from "react-router-dom";
 import Inscription from './Components/Login/Inscription';
 import Connexion from './Components/Login/Connexion';
+import {Footer,Header} from './Components/Navbar';
+import Home from './Routes/Home';
+import './assets/scss/style.scss';
 
 ReactDOM.render(
   <Router>
-      <div>
-        <nav className="mainNav">
-            <div className="navLink">
-              <Link to="/">Home</Link>
-            </div>
-            <div className="navLink">
-              <Link to="/connexion">Connexion</Link>
-            </div>
-            <div className="navLink">
-              <Link to="/chat">Chat</Link>
-            </div>
-        </nav>
-        <Switch>
-          <Route path="/chat">
-            <ChatRoute />
-          </Route>
-          <Route path="/inscription">
-            <Inscription />
-          </Route>
-          <Route path="/connexion">
-            <Connexion />
-          </Route>
-          <Route path="/">
-            <App />
-          </Route>
-        </Switch>
+    <div>
+      <Header />
+      <Switch>
+        <Route path="/forum">
+          <ChatRoute />
+        </Route>
+        <Route path="/inscription">
+          <Inscription />
+        </Route>
+        <Route path="/connexion">
+          <Connexion />
+        </Route>
+        <Route path="/">
+          <Home />
+        </Route>
+      </Switch>
+      <Footer />
       </div>
     </Router>,
   document.getElementById('root')

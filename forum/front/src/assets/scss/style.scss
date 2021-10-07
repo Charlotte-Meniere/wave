@@ -1,0 +1,17 @@
+a{
+    text-decoration: none;
+    color: white;
+    
+}
+*{
+    font-family: "regular";
+    margin: 0
+}
+
+
+
+@import "fonts";
+@import "variables";
+@import "navbar";
+@import "footer";
+@import "home"
